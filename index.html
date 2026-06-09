@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivory&Co</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+              <a class="navbar-brand" href="#">Ivory&Co</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav mx-auto gap-2">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#newsletter">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                 </ul>
+              </div>
+        </div>
+    </nav>
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="row align-items-center g-5"> 
+                <div class="col-lg-6">
+                    <p class="hero-tag">New Collection</p>
+                    <h1>Soft things <br>for <em>slow days.</em> </h1>
+                    <p>Handpicked home goods and lifestyle pieces curated for comfort , calm, and quiet beauty</p>
+                    <a href="#product" class="btn btn-dark-custom">Shop Now</a>
+                </div>
+            </div>
+            <div>
+                <img src="image/herosection.jpg" alt="">              
+            </div>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="sec-label">Curated Picks</p>
+                <h2 class="sec-title">Shop the Edit</h2>
+            </div>
+        
+            <div class="row g-4">
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-img-wrap">
+                             <img src="image/linenpillow.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-cat">Textiles</p>
+                            <h5 class="card-title">Linen Throw Pillow</h5>
+                            <p class="card-text">Pre-washed Belgian linen. Gets softer with every wash.</p>
+                            <div class="card-footer-row">
+                                <span class="price">$48</span>
+                                <a href="#" class="btn-shop">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-img-wrap">
+                            <img src="image/pourer.jpg" alt="">                
+                        </div>
+                        <div class="card-body">
+                           <p class="card-cat">Kitchen</p>
+                           <h5 class="card-title">Ceramic Pour-Over</h5>
+                           <p class="card-text">Artisan stonae dripper.Elevate your morning ritual</p>
+                           <div class="card-footer-row">
+                              <span class="price">$72</span>
+                               <a href="#" class="btn-shop">Shop Work</a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-img-wrap">
+                           <img src="image/ambiance.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                           <p class="card-cat">Ambience</p>
+                           <h5 class="card-title"> Beewax Tapers</h5>
+                           <p class="card-text"> Pure beewax, honey-warm glow. Set of six</p>
+                           <div class="card-footer-row">
+                               <span class="price">$34</span>
+                               <a href="#" class="btn-shop">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-img-wrap">
+                          <img src="image/sofa.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                           <p class="card-cat">Furniture</p>
+                           <h5 class="card-title">Boucle Chair</h5>
+                           <p class="card-text">Ivory boucle. A quiet statement piece.</p>
+                           <div class="card-footer-row">
+                              <span class="price">$298</span>
+                            <a href="#" class="btn-shop">Shop Now</a>
+                           </div>
+                         </div>
+                    </div>
+                 </div>
+            </div>
+            <div>
+              <a href="#" class="btn btn-outline-custom">View All Products</a>
+            </div>
+         
+        </div>
+    </section>
+    <section class="newletter" id="newletter">
+        <div class="container">
+            <p class="sec-label">Stay in Touch</p>
+            <h2>Join the soft life.</h2>
+            <p>New arrivals, maker stories & members-only treats.</p>
+            <div class="d-flex justify-content-center gap-2 mt-3">
+              <input class="nl-input" type="email" placeholder="youremail@gmail.com">
+              <button class="btn-nl">Subscribe</button>
+            </div>
+            <p>No spam. Unsubcribe anytime.</p>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12">
+                    <p class="foot-brand">Ivory&Co</p>
+                    <p class="foot-tagline">Object made with care.</p>
+                </div>
+            </div>
+            <div>
+                <span>© 2026 Ivory&Co. All rights reserved.</span>
+                <div>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div> 
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
+</body>
+</html>
